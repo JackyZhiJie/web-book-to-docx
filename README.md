@@ -43,4 +43,8 @@ python converter.py "https://www.example.com/book/" -o "My Book Title.docx"
 1. **Extraction:** The script sends a standard HTTP request to the provided URL and parses the HTML to find all internal `.html` links that belong to the same domain.
 2. **Bootstrapping:** It launches Microsoft Word silently in the background.
 3. **Merging:** It loops through each chapter URL and instructs Word to directly insert and render the HTML from the web into the master document.
+<<<<<<< Updated upstream
 4. **Saving:** Once all chapters are inserted, it saves the file as `.docx` and closes Microsoft Word.
+=======
+4. **Saving:** Once all chapters are inserted, it saves the file as `.docx` and closes Microsoft Word.
+>>>>>>> Stashed changes
